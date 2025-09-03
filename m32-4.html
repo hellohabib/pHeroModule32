@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 32-4</title>    
+    <style>
+        #post-container{
+            max-width: 80%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .post-card{
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            padding: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <button onclick="loadPosts()">Load Posts</button>
+
+    <!-- <ol id=""></ol> -->
+     <div id="post-container">
+        
+     </div>
+
+
+    <script src="./m32-4.js"></script>
+</body>
+</html>

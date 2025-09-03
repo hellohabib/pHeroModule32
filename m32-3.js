@@ -9,6 +9,7 @@ console.log(promiseOfFetch);
 console.log(promiseOfJson); 
 // .json() এর দেওয়া promise থেকে ফাইনালি Object ফরম্যাটে ডেটা পাওয়া যায়
  promiseOfJson.then(dta => console.log(dta)); 
+// ফাইনাল Object ফরম্যাটে ডেটা পাওয়ার জন্য উপরের পুরা কোড শর্টে নিচের মত লেখা যায়ঃ 
 fetch("https://jsonplaceholder.typicode.com/todos/1").then(r=>r.json()).then(d=>console.log(d));
 
 
